@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ADmyBRAND Insights – AI-Powered Analytics Dashboard
 
-## Getting Started
+A beautifully designed, AI-assisted analytics dashboard built for marketing agencies to visualize campaign performance. Built using Next.js 14, Tailwind CSS, shadcn/ui, and Recharts — this dashboard displays key metrics, interactive charts, exportable tables, and a clean dark/light mode experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔥 Live Demo  
+[**View Demo on Vercel**](https://admybrand-insights-dashboard-9lal.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS + shadcn/ui
+- **Charts**: Recharts (Line, Bar, Pie, Radar)
+- **Dark Mode**: next-themes
+- **CSV Parsing**: PapaParse
+- **PDF Export**: jsPDF + autoTable
+- **Type Safety**: TypeScript
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📊 Overview Cards (Spend, Clicks, Conversions)
+- 📈 4 Charts: Line, Bar, Pie, Radar
+- 📅 Date Range Filters: 7/30/180/365 days, All time
+- 📋 Data Table: Sorting, filtering, pagination
+- 🌗 Dark/Light Mode Toggle
+- 📤 Export: CSV and PDF support
+- ⏳ Animated Loading Skeletons
+- 📱 Fully Responsive Layout
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🤖 AI Usage Report
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### AI Tools Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Primary tools**:
+  - ChatGPT
+  - GitHub Copilot
+  - Cursor IDE (minimal)
+
+### Key Use Cases
+
+- Helped scaffold reusable components like chart cards and data tables
+- Generated export logic (CSV, PDF with jsPDF)
+- Assisted with Tailwind layout suggestions and utility class organization
+- Supported debugging and fixing TypeScript + ESLint issues
+
+### Sample Prompts
+
+1. "Create a responsive dashboard layout using Tailwind and shadcn/ui"
+2. "How to export a table to PDF in a React + TypeScript project?"
+3. "Build a pie chart using Recharts with custom colors and labels"
+
+### AI vs Manual Work Split
+
+- **AI-generated**: ~60%
+  - Chart scaffolding, utility functions, export logic, layout inspiration
+- **Manual coding**: ~40%
+  - Data integration, theme customization, dark mode, filters, interactivity
+- **Customization**:
+  - All AI suggestions were tailored to match the ADmyBRAND visual theme, responsive breakpoints, and branding. Final layout, animations, and UX were manually refined.
+
+---
+
